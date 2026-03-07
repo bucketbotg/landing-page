@@ -1,0 +1,42 @@
+fullName: Buck
+bio: Удобный бот в Telegram для развлечений, администрирования бесед и ИИ.
+theme: 'all-stars'
+bgImage: /static/bg.jpg
+location: Anexia DC, Germany
+avatar: /static/av.jpg
+page: 
+  title: Buck / Telegram Bot
+  description: Удобный бот в Telegram для развлечений, администрирования бесед и ИИ.
+  keywords: telegram, bot, buck, furry
+links:
+  - title: Установить в беседу
+    url: https://t.me/airambleybot
+    icon: mdi:plus
+    color: '#ff02fa'
+    classes: 'btn-primary'
+  - title: Канал в Telegram
+    url: https://t.me/bucketupdatez
+    icon: mdi:telegram
+    color: '#ff02fa'
+  - title: Документация
+    url: https://docs.buck.onl
+    icon: mdi:book-education
+    color: '#ff02fa'
+  - title: Блог
+    url: https://devlog.buck.onl
+#    icon: mdi:post
+    icon: mdi:link
+    color: '#ff02fa'
+  - title: Аптайм, состояние бота
+    url: https://uptime.buck.onl
+#    icon: mdi:chart-timeline
+    icon: mdi:link
+    color: '#ff02fa'
+
+socials:
+  - title: GitHub
+    url: https://github.com/bucketbotg
+    icon: mdi:github
+  - title: Telegram
+    url: https://t.me/bucketupdatez?direct
+    icon: mdi:chat
