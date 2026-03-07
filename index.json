@@ -1,0 +1,91 @@
+{
+  "html": {
+    "basic": {
+      "lang": "ru",
+      "title": "Buck / Telegram-бот для ваших бесед",
+      "description": "Telegram-бот для ваших бесед. Игры, развлечения, администрирование, ИИ и многое другое. Без нужды платить.",
+      "favicon": "/favicon.ico",
+      "keywords": "buck, bucket, telegram, bot, бот, телеграм, развлечения, игры, адммн, ии, бесплатно",
+      "author": "shaderwolf",
+      "url": "https://buck.onl",
+      "image": null,
+      "ogType": "website",
+      "ogSiteName": "BuckTelegramBot",
+      "twitterCard": null,
+      "twitterSite": null,
+      "twitterCreator": null
+    }
+  },
+  "background": {
+    "firstColor": "#000000",
+    "secondColor": "#350027"
+  },
+  "header": {
+    "image": "/av.jpg",
+    "alt": "Artwork of Buck.",
+    "title": "Buck",
+    "description": "Telegram-бот для ваших бесед. Игры, развлечения, администрирование, ИИ и многое другое. Без нужды платить.",
+    "textColor": "white"
+  },
+  "socials": [
+    {
+      "network": "GitHub",
+      "username": "bucketbotg",
+      "url": "https://github.com/bucketbotg"
+    },
+    {
+      "network": "Mail",
+      "username": "bucketupdatez",
+      "url": "https://t.me/bucketupdatez?direct"
+    }
+  ],
+  "featured": [
+    {
+      "network": "Telegram",
+      "url": "https://t.me/airambleybot",
+      "title": "Установить бота в беседу",
+      "textColor": "#FFF",
+      "backgroundImage": "/banner1.jpg",
+      "backgroundColor": null,
+      "borderRadius": ".75rem"
+    }
+  ],
+  "buttons": [
+    {
+      "network": "Telegram",
+      "url": "https://t.me/bucketupdatez",
+      "title": "Telegram-канал",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Docs",
+      "url": "https://docs.buck.onl",
+      "title": "Документация (WIP)",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Uptime",
+      "url": "https://uptime.buck.onl",
+      "title": "Аптайм, работа бота (WIP)",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Blog",
+      "url": "https://devlog.buck.onl",
+      "title": "Devlog (WIP)",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+  ],
+  "footer": {
+    "copyright": null,
+    "url": null
+  }
+}

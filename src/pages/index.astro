@@ -1,18 +1,25 @@
 ---
-import yaml from 'js-yaml';
-import AllStars from '@components/themes/AllStars.astro';
-import LinkTreeLayout from '../layouts/LinkTreeLayout.astro';
+import Layout from "@/layouts/Layout.astro";
 
-import BusinessCard from '@components/themes/BusinessCard.astro';
-import Disco from '@components/themes/Disco.astro';
-import { loadLinksConfig } from '@/libs/links';
-
-const config = await loadLinksConfig(Astro.url);
-
+import Header from "@/components/sections/Header.astro";
+import Socials from "@/components/sections/Socials.astro";
+import Featured from "@/components/sections/Featured.astro";
+import Buttons from "@/components/sections/Buttons.astro";
+import Footer from "@/components/sections/Footer.astro";
 ---
 
-<LinkTreeLayout page={config.page}>
-	{config.theme === 'all-stars' && <AllStars config={config} />}
-	{config.theme === 'card' && <BusinessCard config={config} />}
-	{config.theme === 'disco' && <Disco config={config} />}
-</LinkTreeLayout>
+<Layout title="AstroLinkHub">
+  <main>
+    <Header />
+    <Socials />
+    <Featured />
+    <Buttons />
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  main {
+    width: 100%;
+  }
+</style>
