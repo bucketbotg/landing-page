@@ -1,13 +1,14 @@
 ---
 import { header } from "index.json";
 import Section from "@/components/Section.astro";
+import { Image } from 'astro:assets';
 
 const { title, description, image, alt, textColor } = header;
 ---
 
 <Section>
   <div class="container" style={`color: ${textColor};`}>
-    <img
+    <Image
       src={image}
       alt={alt}
       width="128"
